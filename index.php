@@ -9,6 +9,7 @@ $matelas = $query->fetchAll();
 ?>
 <div class="btnBan">
     <a class="btnAdd" href="./page_add_matelas.php">Ajouter un produit</a>
+    <a class="btnAdd" href="./page1.php">Catalogue</a>
 </div>
 
 <div class="mainCatalogue">

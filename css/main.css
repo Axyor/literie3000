@@ -376,9 +376,15 @@ body .btnBan .btnAdd {
   background-color: #134284;
   border: solid 0.2rem #134284;
   font-weight: bold;
+  margin-left: 2rem;
 }
 body .btnBan .btnAdd:hover {
   color: #ffcc4d;
+}
+body .mainCatalogue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 body .mainCatalogue .item {
   display: flex;
@@ -395,6 +401,7 @@ body .mainCatalogue .item .item-description {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: 0 5rem;
 }
 body .mainCatalogue .item .item-description .btns {
   margin: 1rem 0;
@@ -423,8 +430,65 @@ body .mainCatalogue .item .item-description .btns .btn-delete {
   border: solid 0.2rem #ffcc4d;
 }
 body .mainCatalogue .item .item-description .btns .btn-delete:hover {
-  background-color: #e84118;
-  border: solid 0.2rem #e84118;
+  background-color: #d63031;
+  border: solid 0.2rem #d63031;
+}
+
+.info-error {
+  color: #e84118;
+}
+
+.container {
+  margin: 10rem 0;
+}
+.container p {
+  text-align: center;
+  margin: 3rem 0;
+}
+.container form {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container form .form-group {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.container form .form-group label {
+  margin: 2rem 0;
+}
+.container form .form-group input {
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+  border: solid black 0.1rem;
+  padding: 0.5rem;
+}
+.container form .btnAdd {
+  margin: 2rem 0;
+  text-decoration: none;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #134284;
+  color: white;
+  font-weight: bold;
+  border: solid 0.2rem #134284;
+}
+.container form .btnAdd:hover {
+  color: #ffcc4d;
+}
+.container .backIndex .btnBack {
+  text-decoration: none;
+  padding: 1rem 0.75rem;
+  border-radius: 1rem;
+  background-color: #134284;
+  color: white;
+  font-weight: bold;
+  border: solid 0.2rem #134284;
+}
+.container .backIndex .btnBack:hover {
+  color: #ffcc4d;
 }
 
 footer {

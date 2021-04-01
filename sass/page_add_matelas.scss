@@ -1,0 +1,57 @@
+.info-error {
+    color: #e84118;
+}
+.container {
+    margin: 10rem 0;
+    p {
+        text-align: center;
+        margin: 3rem 0;
+    }
+    form {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .form-group {
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+            label {
+                margin: 2rem 0;
+            }
+            input {
+                margin: 2rem 0;
+                border-radius: 0.5rem;
+                border: solid black 0.1rem;
+                padding: 0.5rem;
+            }
+        }
+        .btnAdd {
+            margin: 2rem 0;
+            text-decoration: none;
+            padding: 1rem;
+            border-radius: 1rem;
+            background-color: #134284;
+            color: white;
+            font-weight: bold;
+            border: solid 0.2rem #134284;
+        }
+        .btnAdd:hover {
+            color: #ffcc4d;
+        }
+    }
+    .backIndex {
+        .btnBack {
+            text-decoration: none;
+            padding: 1rem 0.75rem;
+            border-radius: 1rem;
+            background-color: #134284;
+            color: white;
+            font-weight: bold;
+            border: solid 0.2rem #134284;
+        }
+        .btnBack:hover{
+            color: #ffcc4d;
+        }
+    }
+}

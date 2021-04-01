@@ -17,7 +17,7 @@
         <img src="./assets/img/1.png" alt="">
         <div class="textAccueil">
             <p>👋 Bonjour bienvenue chez le leader du dodo sans mal de dos ! 👋</p>
-            <p> Voici notre catalogue :</p>
+            
         </div>
 
     </header>
