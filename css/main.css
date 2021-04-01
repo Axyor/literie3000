@@ -444,10 +444,16 @@ body .mainCatalogue .item .item-description .btns .btn-delete {
   border: solid 0.2rem #ffcc4d;
 }
 body .mainCatalogue .item .item-description .btns .btn-delete:hover {
+  color: white;
   background-color: #d63031;
   border: solid 0.2rem #d63031;
 }
 
+@media screen and (min-width: 751px) and (max-width: 1300px) {
+  body {
+    padding: 2rem;
+  }
+}
 .brands {
   display: flex;
   flex-direction: column;
