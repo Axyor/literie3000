@@ -13,6 +13,10 @@ if (!empty($_POST)) {
     if (empty($nom)) {
         $errors["nom"] = "Le nom du produit est obligatoire";
     }
+
+    if (empty($marque)) {
+        $errors["marque"] = "La marque du produit est obligatoire";
+    }
     if (!filter_var($img, FILTER_VALIDATE_URL)) {
         $errors["img"] = "L'url de l'image est invalide";
     }
@@ -85,7 +89,7 @@ if (!empty($_POST)) {
             <label for="inputDimension">Dimension :</label>
             <input type="text" name="dimension" id="inputDimension" placeholder="">
             <?php
-                    if (isset($errors["marque"])) {
+                    if (isset($errors["dimension"])) {
                         echo "<span class=\"info-error\">{$errors["dimension"]}</span>";
                     }
                     ?>

@@ -348,7 +348,7 @@ body header {
   display: flex;
   flex-direction: row;
   background-color: white;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 body header img {
   width: 25rem;
@@ -388,11 +388,14 @@ body .mainCatalogue {
 }
 body .mainCatalogue .item {
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
   margin: 2rem 0;
+  justify-content: center;
 }
 body .mainCatalogue .item .item-img {
   max-width: 35rem;
+  max-height: 35rem;
+  margin-top: 1rem;
 }
 body .mainCatalogue .item .item-img img {
   width: 100%;
@@ -402,6 +405,17 @@ body .mainCatalogue .item .item-description {
   flex-direction: column;
   justify-content: center;
   margin: 0 5rem;
+}
+body .mainCatalogue .item .item-description p {
+  font-weight: bold;
+  color: black;
+  padding: 0.5rem;
+}
+body .mainCatalogue .item .item-description p span {
+  background-color: transparent;
+  color: #134284;
+  font-weight: bold;
+  font-size: 1.8rem;
 }
 body .mainCatalogue .item .item-description .btns {
   margin: 1rem 0;
@@ -434,6 +448,25 @@ body .mainCatalogue .item .item-description .btns .btn-delete:hover {
   border: solid 0.2rem #d63031;
 }
 
+.brands {
+  display: flex;
+  flex-direction: column;
+}
+.brands p {
+  text-align: center;
+}
+.brands .itemB {
+  display: flex;
+  flex-wrap: wrap;
+}
+.brands .itemB .itemB-img {
+  width: 10rem;
+  margin: 0 2rem;
+}
+.brands .itemB .itemB-img img {
+  width: 100%;
+}
+
 .info-error {
   color: #e84118;
 }
@@ -444,6 +477,7 @@ body .mainCatalogue .item .item-description .btns .btn-delete:hover {
 .container p {
   text-align: center;
   margin: 3rem 0;
+  font-weight: bold;
 }
 .container form {
   flex-direction: column;
@@ -452,12 +486,14 @@ body .mainCatalogue .item .item-description .btns .btn-delete:hover {
   justify-content: center;
 }
 .container form .form-group {
-  width: 30%;
+  width: 60rem;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .container form .form-group label {
   margin: 2rem 0;
+  font-weight: bold;
 }
 .container form .form-group input {
   margin: 2rem 0;

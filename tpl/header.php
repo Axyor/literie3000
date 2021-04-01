@@ -14,7 +14,7 @@
 <body>
     <header>
 
-        <img src="./assets/img/1.png" alt="">
+        <a href="./index.php"><img src="./assets/img/1.png" alt=""></a>
         <div class="textAccueil">
             <p>👋 Bonjour bienvenue chez le leader du dodo sans mal de dos ! 👋</p>
             

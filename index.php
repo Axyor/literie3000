@@ -1,15 +1,19 @@
 <?php
-include("./tpl/header.php");
+
 
 $dsn = "mysql:host=localhost;dbname=literie3000_db";
 $db = new PDO($dsn, "root", "");
 $query =  $db->query("SELECT * FROM matelas;");
 
 $matelas = $query->fetchAll();
+include("./tpl/header.php");
 ?>
 <div class="btnBan">
     <a class="btnAdd" href="./page_add_matelas.php">Ajouter un produit</a>
+    <a class="btnAdd" href="./page_add_marques.php">Ajouter une marque</a>
     <a class="btnAdd" href="./page1.php">Catalogue</a>
+    
+
 </div>
 
 <div class="mainCatalogue">
@@ -32,7 +36,7 @@ $matelas = $query->fetchAll();
 
                 <p>Nom : <span><?= $nom ?></span></p>
 
-                <p>Dimension : <span><?= $dimension ?></span></p>
+                <p>Dimension : <span><?= $dimension ?> cm</span></p>
 
                 <p>Prix : <span><?= $prix ?> euros</span></p>
                 <div class="btns">

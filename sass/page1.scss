@@ -1,0 +1,19 @@
+.brands {
+    display: flex;
+    flex-direction: column;
+    
+    p{
+        text-align: center;
+    }
+    .itemB {
+        display: flex;
+        flex-wrap: wrap;
+        .itemB-img {
+            width: 10rem;
+            margin:0 2rem;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

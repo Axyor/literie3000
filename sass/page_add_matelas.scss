@@ -6,6 +6,7 @@
     p {
         text-align: center;
         margin: 3rem 0;
+        font-weight: bold;
     }
     form {
         flex-direction: column;
@@ -13,11 +14,13 @@
         align-items: center;
         justify-content: center;
         .form-group {
-            width: 30%;
+            width: 60rem;
             display: flex;
             justify-content: space-between;
+            flex-wrap: wrap;
             label {
                 margin: 2rem 0;
+                font-weight: bold;
             }
             input {
                 margin: 2rem 0;
