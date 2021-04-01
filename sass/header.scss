@@ -1,0 +1,22 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    header {
+        display: flex;
+        flex-direction: row;
+        background-color: white;
+        justify-content: space-around;
+        img {
+            width: 25rem;
+        }
+        .textAccueil {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+            p{
+text-align: center;
+font-size: 1.8rem;
+            }
+        }
+    }
+}

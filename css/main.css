@@ -22,7 +22,7 @@ body {
   margin: 0;
   font-size: 1.8rem;
   height: 100%;
-  background-color: #4FA047;
+  padding: 2rem 25rem;
 }
 
 /**
@@ -339,6 +339,108 @@ template {
  */
 [hidden] {
   display: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+body header {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: space-around;
+}
+body header img {
+  width: 25rem;
+}
+body header .textAccueil {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body header .textAccueil p {
+  text-align: center;
+  font-size: 1.8rem;
+}
+
+body .btnBan {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+}
+body .btnBan .btnAdd {
+  text-decoration: none;
+  padding: 1rem 0.75rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: #134284;
+  border: solid 0.2rem #134284;
+  font-weight: bold;
+}
+body .btnBan .btnAdd:hover {
+  color: #ffcc4d;
+}
+body .mainCatalogue .item {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+body .mainCatalogue .item .item-img {
+  max-width: 35rem;
+}
+body .mainCatalogue .item .item-img img {
+  width: 100%;
+}
+body .mainCatalogue .item .item-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .mainCatalogue .item .item-description .btns {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+body .mainCatalogue .item .item-description .btns .btn-edit {
+  text-decoration: none;
+  padding: 1rem 0.75rem;
+  border-radius: 1rem;
+  background-color: #134284;
+  color: white;
+  font-weight: bold;
+  border: solid 0.2rem #134284;
+}
+body .mainCatalogue .item .item-description .btns .btn-edit:hover {
+  color: #ffcc4d;
+}
+body .mainCatalogue .item .item-description .btns .btn-delete {
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  color: #134284;
+  background-color: #ffcc4d;
+  font-weight: bold;
+  border: solid 0.2rem #ffcc4d;
+}
+body .mainCatalogue .item .item-description .btns .btn-delete:hover {
+  background-color: #e84118;
+  border: solid 0.2rem #e84118;
+}
+
+footer {
+  display: flex;
+  background-color: #134284;
+  height: 7.5rem;
+  justify-content: space-between;
+  padding: 0 2rem;
+  color: white;
+  align-items: center;
+}
+footer p span {
+  font-style: italic;
+}
+footer img {
+  width: 7.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */

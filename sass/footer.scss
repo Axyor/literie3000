@@ -1,0 +1,17 @@
+footer{
+display: flex;
+    background-color: #134284;
+    height: 7.5rem;
+    justify-content: space-between;
+    padding: 0 2rem;
+    color: white;
+    align-items: center;
+    p{
+        span{
+            font-style: italic;
+        }
+    }
+    img{
+        width: 7.5rem;
+    }
+}

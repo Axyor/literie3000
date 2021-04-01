@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -7,9 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Literie 3000</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&family=Montserrat:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<header>
+    <header>
 
-</header>
+        <img src="./assets/img/1.png" alt="">
+        <div class="textAccueil">
+            <p>👋 Bonjour bienvenue chez le leader du dodo sans mal de dos ! 👋</p>
+            <p> Voici notre catalogue :</p>
+        </div>
+
+    </header>
